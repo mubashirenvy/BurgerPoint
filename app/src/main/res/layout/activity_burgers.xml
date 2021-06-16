@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Burgers">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/refs"
+        android:layout_margin="30sp"
+        >
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/vh_img"
+            />
+
+        <TextView
+            android:id="@+id/vh_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Title Text"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#3f3056"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="105dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: "
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#3f3056"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vh_price"
+            android:text="Description Text"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#3f3056"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/Rs"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#3f3056"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="105dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#3f3056"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/decrement"
+            android:layout_width="27dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:background="#9E9AA3"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="#3f3056"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="#3f3056"
+            android:layout_marginLeft="20sp"
+            android:id="@+id/days"
+
+
+            />
+
+        <TextView
+            android:id="@+id/increment"
+            android:layout_width="27dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:background="#A5A19D"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#3f3056"
+            android:textSize="20sp"
+            android:textStyle="italic"
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/vh_btn"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#B6B3B0"
+        android:text="Order"
+        android:textColor="#ffffff"
+
+        />
+
+
+</LinearLayout>

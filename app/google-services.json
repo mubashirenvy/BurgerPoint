@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1000947847244",
+    "project_id": "burger-point-9b7e2",
+    "storage_bucket": "burger-point-9b7e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000947847244:android:a13d3adba2b20c5462a4e9",
+        "android_client_info": {
+          "package_name": "com.example.burgerpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000947847244-a6eg81v0fhd3omv37ig141i0vr7cc0qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.burgerpoint",
+            "certificate_hash": "e27d6937afa6d28e49194e1ae723bd0bc99e9f99"
+          }
+        },
+        {
+          "client_id": "1000947847244-4bbt1crv91fpjdta2kg4f5cjamors9r7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC849yspz1mAm6IJSLgWdYdkE4u40XlqQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000947847244-4bbt1crv91fpjdta2kg4f5cjamors9r7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
